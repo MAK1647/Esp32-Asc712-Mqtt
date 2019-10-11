@@ -1,0 +1,7 @@
++Khi bam nút nhan thi relay se bat ðe tang dong ðien
+
++Công thuc tính dong ðien:
+currentt =  ((3.9 / 4095.0)* (4095- currentt =  currentt + ((3.9 / 4095.0)* (4095-analogRead(ASC_PIN))-0.955)/ 0.066;)-0.955)/ 0.066;
+Công thuc này se ðýoc lay mau 1000 lan và tính trung binh cong voi (4095-analogRead(ASC_PIN)) là giá tri  chân analog
+
++File mqtt.h se cho thay so do chn cua esp32
